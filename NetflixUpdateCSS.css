@@ -1,0 +1,119 @@
+/*Hello There. Do Enjoy scanning my CSS. I had fun recreating this.*/
+/*Let me know what you think*/
+/*FYI this was just for fun :-) */
+
+body {
+    margin: 0px; 
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+
+.netflix-logo{
+  width:  150px;
+  margin-left: 25px;
+  cursor: pointer;
+
+}
+
+.title {
+  color: #FFFFFF;
+  text-align: Center;
+  font-weight: normal;
+  margin-top: 50px;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.profile-section{
+display: grid;
+grid-template-columns: 185px 185px 185px 185px;
+justify-content: center;
+
+}
+
+.containers{
+display: grid;
+grid-template-columns: 170px;
+justify-content: center;
+height: 212px;
+margin-bottom: 22px;
+margin-top: 0px;
+text-align: center;
+
+}
+
+
+
+.display-image{
+  width: 150px;
+  height: 170px;
+  object-fit: cover;
+  object-position: top center;
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:  black;
+  margin-top: 10px;
+  align-content: center;
+
+
+}
+
+.display-image:hover {
+   border-color: #F22809;
+   border-width: 5px;
+}
+
+
+
+.profile-name{
+  color: darkgrey;
+  display: grid;
+  grid-template-columns: 150px;
+  cursor: pointer;
+  width: 172px;
+  text-align: center;
+   /*this moves items in the div i.e text to the center*/
+}
+
+.profile-name:hover {
+color: white;
+}
+
+.profile-name:active {
+color: #F22809;
+}
+
+
+.bottom-section{
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+}
+
+.button{
+  background-color: black;
+  border-color: darkgrey;
+  border-style: solid;
+  border-width: 1px;
+  color: darkgrey;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor:  pointer;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.button:hover{
+  color:  white;
+  border-color: white;
+}
+
+.button:active{
+  color:  #F22809;
+  border-color: #F22809;
+}
